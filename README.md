@@ -15,10 +15,12 @@ See `src/` for source files.
 - pip install -r requirements.txt
 
 # pip install yfinance matplotlib pandas
-1. Activate the virtual environment:
-- .\\venv\\Scripts\\activate
-2. Install dependencies:
+1. To create virtual environment:
+- python -m venv venv
+2. Activate the virtual environment:
+- venv\Scripts\activate
+3. Install dependencies:
 - pip install yfinance matplotlib pandas
-3. Run the script:
+4. Run the script:
 # python src/main.py
 
